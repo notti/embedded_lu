@@ -1,2 +1,4 @@
-*~
-Debug
+*.o
+*.vcd
+*.exe
+*.pyc

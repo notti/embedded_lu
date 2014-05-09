@@ -18,7 +18,7 @@ SC_MODULE(shiftreg) {
 
    SC_CTOR(shiftreg) { 
 	   SC_METHOD(do_shift)
-			   sensitive << clk << reset;
+			   sensitive << clk.pos() << reset;
    }
 
    void do_reset() {
