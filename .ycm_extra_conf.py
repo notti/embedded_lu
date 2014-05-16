@@ -43,6 +43,8 @@ flags = [
 '.',
 '-I',
 '../../systemc/systemc/include',
+'-I',
+'../../systemc/systemcams/include',
 ]
 
 
